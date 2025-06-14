@@ -22,7 +22,6 @@ Dataset Info
 | Feature | Description |
 |--------|-------------|
 | **Feature**      | **Description**                                       |
-| ---------------- | ----------------------------------------------------- |
 | `Age`            | Age of the patient (in years)                         |
 | `Sex`            | Gender of the patient (1 = male, 0 = female)          |
 | `ChestPainType`  | Type of chest pain experienced                        |
