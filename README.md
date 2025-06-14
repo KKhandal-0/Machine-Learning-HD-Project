@@ -67,11 +67,13 @@ Skills Demonstrated
 
 Project Structure
 
-├── gui.py                PyQt5 user interface
-├── model.py              ML model creation and prediction logic
-├── preprocess.py         Data preprocessing steps
-├── heart.csv             Dataset
-├── README.md             This file
+```
+├── gui.py             # PyQt5 user interface for real-time prediction
+├── model.py           # Contains logistic regression model and prediction logic
+├── preprocess.py      # Handles data preprocessing (scaling, encoding, cleaning)
+├── heart.csv          # Dataset used for training and testing
+├── README.md          # Project documentation (this file)
+```
 
 
 Acknowledgements
