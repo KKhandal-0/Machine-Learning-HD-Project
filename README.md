@@ -67,11 +67,11 @@ Skills Demonstrated
 
 Project Structure
 
-├── gui.py               # PyQt5 user interface
-├── model.py             # ML model creation and prediction logic
-├── preprocess.py        # Data preprocessing steps
-├── heart.csv            # Dataset
-├── README.md            # This file
+├── gui.py                PyQt5 user interface
+├── model.py              ML model creation and prediction logic
+├── preprocess.py         Data preprocessing steps
+├── heart.csv             Dataset
+├── README.md             This file
 
 
 Acknowledgements
