@@ -41,4 +41,4 @@ def test():
 #Save as pkl
 with open("logistic_model.pkl", "wb") as file:
     pickle.dump(model, file)
-    
+
