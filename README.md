@@ -36,11 +36,8 @@ How to Run
 # Clone the repo
 git clone https://github.com/KKhandal-0/Machine-Learning-HD-Project.git
 
-# Install requirements
-pip install -r requirements.txt
-
 # Run the GUI
-python gui.py
+python main.py
 ```
 
 > ⚠️ Make sure `heart.csv` is in the root directory.
