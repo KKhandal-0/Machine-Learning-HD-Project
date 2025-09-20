@@ -21,12 +21,20 @@ Dataset Info
 
 | Feature | Description |
 |--------|-------------|
-| Age | Patient's age |
-| Sex | 1 = Male, 0 = Female |
-| ChestPainType | Typical/Asymptomatic |
-| RestingBP | Resting blood pressure |
-| Cholesterol | Serum cholesterol |
-| ... | ...and more medical indicators |
+| **Feature**      | **Description**                                       |
+| `Age`            | Age of the patient (in years)                         |
+| `Sex`            | Gender of the patient (1 = male, 0 = female)          |
+| `ChestPainType`  | Type of chest pain experienced                        |
+| `RestingBP`      | Resting blood pressure (mm Hg)                        |
+| `Cholesterol`    | Serum cholesterol level (mg/dl)                       |
+| `FastingBS`      | Fasting blood sugar > 120 mg/dl (1 = true, 0 = false) |
+| `RestingECG`     | Resting electrocardiogram results                     |
+| `MaxHR`          | Maximum heart rate achieved                           |
+| `ExerciseAngina` | Exercise-induced angina (Y = yes, N = no)             |
+| `Oldpeak`        | ST depression induced by exercise relative to rest    |
+| `ST_Slope`       | Slope of the peak exercise ST segment                 |
+| `HeartDisease`   | Target variable (1 = has heart disease, 0 = does not) |
+
 
 
 
@@ -64,11 +72,13 @@ Skills Demonstrated
 
 Project Structure
 
-├── gui.py               # PyQt5 user interface
-├── model.py             # ML model creation and prediction logic
-├── preprocess.py        # Data preprocessing steps
-├── heart.csv            # Dataset
-├── README.md            # This file
+```
+├── gui.py             # PyQt5 user interface for real-time prediction
+├── model.py           # Contains logistic regression model and prediction logic
+├── preprocess.py      # Handles data preprocessing (scaling, encoding, cleaning)
+├── heart.csv          # Dataset used for training and testing
+├── README.md          # Project documentation (this file)
+```
 
 
 Acknowledgements
